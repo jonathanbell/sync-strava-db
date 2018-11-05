@@ -1,0 +1,22 @@
+{
+  "name": "sync-strava-db",
+  "version": "0.0.1",
+  "private": true,
+  "description": "AWS Lambda function that syncs my Strava activities to a MongoDB database.",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Bell <jonathanbell.ca@gmail.com>",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.10.0 <=9.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.4",
+    "node-fetch": "^2.2.0",
+    "nodemailer": "^4.6.8"
+  }
+}
